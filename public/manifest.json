@@ -1,0 +1,20 @@
+{
+  "name": "PBL Planner Online",
+  "short_name": "PBL Canvas",
+  "icons": [
+    {
+      "src": "img/icons/android-chrome-192x192.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#47a8a8"
+}

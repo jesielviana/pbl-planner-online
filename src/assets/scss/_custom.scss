@@ -1,0 +1,221 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family:galano grotesque alt;
+  src:url('~@/assets/fonts/GalanoGrotesqueAlt-Bold.woff2');
+  font-weight:700;
+  font-style:normal;
+} 
+
+@font-face{
+  font-family:galano grotesque alt;
+  src:url('~@/assets/fonts/GalanoGrotesqueAlt-Medium.woff2');
+  font-weight:600;
+  font-style:normal;
+}
+
+@font-face{
+  font-family:galano grotesque alt;
+  src:url('~@/assets/fonts/GalanoGrotesqueAlt-Regular.woff2');
+  font-weight:500;
+  font-style:normal;
+}
+
+@font-face{
+  font-family:galano grotesque alt;
+  src:url('~@/assets/fonts/GalanoGrotesqueAlt-Light.woff2');
+  font-weight:400;
+  font-style:normal;
+}
+
+
+@font-face{
+  font-family:galano grotesque alt;
+  src:url('~@/assets/fonts/GalanoGrotesqueAlt-ExtraLight.woff2');
+  font-weight:100;
+  font-style:normal;
+}
+
+
+body{
+  font-family: galano grotesque alt,Arial,sans-serif !important;
+  background-color: #fefefe !important;
+}
+
+.app-body .container-fluid{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.app-body h1, .app-body h2, .app-body h3, .app-body h4, .app-body h5, .app-body h6{
+  font-family: galano grotesque alt,Arial,sans-serif;
+}
+
+.container h1, .container h2, .container h3{
+  color: #5f6368 !important;
+  position: relative;
+  padding: 5px 0 !important;
+}
+
+
+.container-fluid h3, .container h3{
+  text-align: center;
+  font-size: 2em;
+}
+
+
+.app-body{
+  padding-top: 75px;
+  background-color: #fff;
+}
+
+.navbar h4{
+  color: #51c5e6 !important; 
+  font-weight: 600;
+}
+
+
+.navbar-light .navbar-brand{
+  font-size: 1.5em;
+  color: #51c5e6 !important; 
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar{
+  padding: 0 1rem !important;
+  background-color: #fff;
+  transition: top 1s, opacity .5s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #5f6368 !important;
+  // text-transform: uppercase;
+}
+
+.navbar-nav{
+  align-items: center;
+}
+
+.nav-icon{
+  width: 24px;
+  height: 24px;
+}
+
+.nav-link-icon {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+
+.nav-link-icon:hover {
+  background-color: rgba(32,33,36,0.039);
+}
+
+.navbar-nav li.avatar a{
+  display: flex ;
+}
+
+.avatar .dropdown-toggle::after{
+  content: none !important;
+}
+
+.bg-light{
+  background-color: #fafafa !important;
+}
+
+.form-group label {
+  margin-bottom: 0.1rem;
+}
+
+.plans .card-body{
+  min-height: 200px;
+  position: relative;
+}
+
+
+ion-icon{
+  font-size: 1.2rem;;
+}
+
+.users-online .img-avatar {
+  border: 1px solid #eee;
+}
+
+.nav-link .badge {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  padding: 5px;
+  border-radius: 50%;
+  background: red;
+  display: block;
+}
+.img-avatar-online{
+  position: relative;
+}
+
+.img-avatar-online .badge {
+  position: absolute;
+  top: -0.5rem;
+  right: 0.5rem;
+  padding: 5px;
+  border-radius: 50%;
+  background: #36a936;
+  display: block;
+}
+
+#messages-card-container .img-avatar-online .badge {
+  top: -10px;
+}
+
+@media(max-width:991px){
+  .nav-item{
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+  .navbar-nav{
+    align-items: flex-start;
+  }
+
+  .nav-link-icon {
+    border-radius: 0%;
+    margin-right: 1rem;
+  }
+  
+  .nav-link-icon:hover {
+    background-color: rgba(32,33,36,0.039);
+  }
+
+  .users-online{
+    padding: 0 !important;
+    margin-bottom: 0.5rem;
+  }
+
+  body{
+    font-size: 0.9rem;
+  }
+}
+
+ion-icon{
+  font-size: 24px !important;
+}
+
+.share-icons a {
+  margin: 0 5px;
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+.btn-primary:hover, .btn-primary.hover,
+.btn-primary:focus, .btn-primary.focus,
+.btn-primary:active, .btn-primary.active{
+  color: #333;
+
+}
