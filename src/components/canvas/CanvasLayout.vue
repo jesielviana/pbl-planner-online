@@ -768,6 +768,7 @@ export default {
 .ambiente .btn-add,
 .capital-humano .btn-add {
   left: 34%;
+  right: auto;
 }
 
 .problema header,
