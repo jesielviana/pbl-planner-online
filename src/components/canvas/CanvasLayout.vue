@@ -195,17 +195,17 @@ fieldName="cronograma"></CanvasFields>
 
 <script>
 /* eslint-disable prefer-destructuring */
-import firebase from 'firebase/app';
-import { mapState } from 'vuex';
-import JsPdf from 'jspdf';
-import CanvasFields from '@/components/canvas/CanvasFields.vue';
-import Loader from '@/components/Loader.vue';
-import Presence from '@/components/Presence.vue';
-import { EventBus } from '@/event-bus';
-import NavBar from '@/components/Navbar.vue';
 import Cartas from '@/components/Cartas.vue';
+import Loader from '@/components/Loader.vue';
+import NavBar from '@/components/Navbar.vue';
+import Presence from '@/components/Presence.vue';
+import CanvasFields from '@/components/canvas/CanvasFields.vue';
 import Tour from '@/components/canvas/Tour.vue';
+import { EventBus } from '@/event-bus';
+import firebase from 'firebase/app';
 import html2canvas from 'html2canvas';
+import JsPdf from 'jspdf';
+import { mapState } from 'vuex';
 // https://timmywil.com/panzoom/demo/
 import Panzoom from '@panzoom/panzoom';
 
@@ -796,6 +796,7 @@ export default {
 .indicadores-sucesso .btn-add,
 .processos .btn-add {
   left: 5px;
+  right: auto;
 }
 
 .btn-collapse {
